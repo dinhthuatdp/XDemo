@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prism:PrismApplication
+    xmlns:prism="clr-namespace:Prism.Autofac;assembly=Prism.Autofac.Forms"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:renderers="clr-namespace:XDemo.UI.Controls.ExtendedElements"
+    xmlns:local="using:XDemo.UI.Themes"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XDemo.UI.App">
+    <prism:PrismApplication.Resources>
+        <ResourceDictionary>
+            <!--import the colors resource-->
+            <ResourceDictionary Source="Themes/DefinedColors.xaml" />
+            <!-- import the defined values resource -->
+            <ResourceDictionary Source="Themes/DefinedValues.xaml" />
+            <!--global styles-->
+            <ResourceDictionary Source="Themes/DefaultTheme.xaml" />
+            <!--spec styles-->
+           <ResourceDictionary Source="Themes/SpecifiedStyles.xaml" />
+        </ResourceDictionary>
+    </prism:PrismApplication.Resources>
+</prism:PrismApplication>
